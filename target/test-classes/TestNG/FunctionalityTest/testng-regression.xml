@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HomeDepotChallenge" parallel = "tests" thread-count="2">
+	<parameter name="Browser" value="chrome" />
+	<test name="CodingChallengeTest">
+		<classes>
+			<class
+				name="com.automation.test.RegressionTest">
+				<include name = "ShoppingCartTest"/>
+				
+				</class>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [HomeDepotChallenge]">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="2" parallel="tests" name="CodingChallengeTest(failed)">
+    <classes>
+      <class name="com.automation.test.RegressionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ShoppingCartTest"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.automation.test.RegressionTest -->
+    </classes>
+  </test> <!-- CodingChallengeTest(failed) -->
+</suite> <!-- Failed suite [HomeDepotChallenge] -->

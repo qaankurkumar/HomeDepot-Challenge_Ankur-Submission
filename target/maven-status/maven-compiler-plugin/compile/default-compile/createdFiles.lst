@@ -1,0 +1,15 @@
+com\automationpractice\pages\LandingPage.class
+com\automationpractice\pages\SignInPage.class
+com\automationpractice\pages\AddressPage.class
+com\automationpractice\pages\PaymentPage.class
+com\automationpractice\utils\WebPageActions.class
+com\automationpractice\utils\PropUtils.class
+com\automationpractice\pages\AddedToCartPage.class
+com\automationpractice\pages\ShippingPage.class
+com\automationpractice\utils\DataUtils.class
+com\automationpractice\utils\WebBrowserActions.class
+com\automationpractice\pages\SummerDressPage.class
+com\automationpractice\pages\InformationPage.class
+com\automationpractice\pages\AddToCartPage.class
+com\automationpractice\pages\ProceedToCheckOutPage.class
+com\automationpractice\pages\ContinueShoppingPage.class

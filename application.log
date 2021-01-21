@@ -1,0 +1,36 @@
+2021-01-20 14:20:41,274  INFO [TestNG-tests-1] WebPageActions:85 - URL: http://automationpractice.com/index.php is launched succesfully
+2021-01-20 14:20:44,179  INFO [TestNG-tests-1] WebPageActions:212 - Hovered to element[btn_women]
+2021-01-20 14:20:46,791  INFO [TestNG-tests-1] WebPageActions:234 - Hovered to element[btn_summerdress]
+2021-01-20 14:20:49,616  INFO [TestNG-tests-1] WebPageActions:212 - Hovered to element[btn_printedsummerdress]
+2021-01-20 14:20:52,386  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[btn_quickview]
+2021-01-20 14:20:55,494  INFO [TestNG-tests-1] WebPageActions:197 - Fetched text[Printed Summer Dress] of element[lbl_dressname]
+2021-01-20 14:21:15,727 ERROR [TestNG-tests-1] WebPageActions:52 - Element not visible on webPage: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (84dc08328a78a33d55932089080040d5)] -> xpath: //select[@id = 'group_1']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V19FAJJO', ip: '192.168.0.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\prose\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 84dc08328a78a33d55932089080040d5
+2021-01-20 14:21:19,202  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[clk_addtocart]
+2021-01-20 14:21:24,157  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[btn_ctnshopping]
+2021-01-20 14:21:26,979  INFO [TestNG-tests-1] WebPageActions:212 - Hovered to element[lbl_cart]
+2021-01-20 14:21:29,458  INFO [TestNG-tests-1] WebPageActions:234 - Hovered to element[btn_checkout]
+2021-01-20 14:21:34,015  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[btn_proceedtocheckout]
+2021-01-20 14:21:36,837  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[AnkurKH@gmail.com] in Textbox[tbx_emailaddress]
+2021-01-20 14:21:39,574  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[btn_createaccount]
+2021-01-20 14:21:44,445  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[Ankur] in Textbox[tbx_firstname]
+2021-01-20 14:21:47,251  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[Kumar] in Textbox[tbx_lastname]
+2021-01-20 14:21:50,035  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[QAnkur] in Textbox[tbx_password]
+2021-01-20 14:21:52,848  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[123 best Driver] in Textbox[tbx_address]
+2021-01-20 14:21:55,650  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[Toronto] in Textbox[tbx_city]
+2021-01-20 14:21:58,380  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[tbx_state]
+2021-01-20 14:22:01,264  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[84198] in Textbox[tbx_postalcode]
+2021-01-20 14:22:04,068  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[1234567891] in Textbox[tbx_mobilenumber]
+2021-01-20 14:22:06,866  INFO [TestNG-tests-1] WebPageActions:166 - Entered Value[Hello] in Textbox[tbx_alias]
+2021-01-20 14:22:11,359  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[btn_register]
+2021-01-20 14:22:15,212  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[btn_proceedtocheckout]
+2021-01-20 14:22:17,953 ERROR [TestNG-tests-1] WebPageActions:250 - The checkbox has not been selected
+2021-01-20 14:22:24,013  INFO [TestNG-tests-1] WebPageActions:150 - Clicked element[btn_proceedtocheckout]
+2021-01-20 14:22:24,730  INFO [TestNG-tests-1] WebPageActions:197 - Fetched text[Printed Summer Dress] of element[lbl_name]
+2021-01-20 14:22:24,733  INFO [TestNG-tests-1] Payment:20 - Assert Passed: The dress name is same as ordered
+2021-01-20 14:22:25,429  INFO [TestNG-tests-1] WebPageActions:197 - Fetched text[1] of element[lbl_qty]
+2021-01-20 14:22:25,429  INFO [TestNG-tests-1] Payment:26 - Assert Passed: The dress quantity is same as ordered
